@@ -309,7 +309,8 @@ html.w-mod-touch * {
 }
 .w-button {
   display: inline-block;
-  padding: 9px 15px;
+  padding: 9px 30px;
+  margin: 0 50px;
   background-color: #3898ec;
   color: white;
   border: 0;
@@ -319,12 +320,16 @@ html.w-mod-touch * {
   border-radius: 0;
   font-size: 1rem;
 }
+
 input.w-button {
   -webkit-appearance: button;
 }
+
 html[data-w-dynpage] [data-w-cloak] {
   color: transparent !important;
 }
+
+
 .w-webflow-badge,
 .w-webflow-badge * {
   position: static;
@@ -387,6 +392,7 @@ html[data-w-dynpage] [data-w-cloak] {
   word-spacing: normal;
   word-wrap: normal;
 }
+
 .w-webflow-badge {
   position: fixed !important;
   display: inline-block !important;
@@ -1892,7 +1898,6 @@ textarea.w-select {
   display: none;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -2160,8 +2165,8 @@ textarea.w-select {
     to(#009ee2)
   );
   background-image: linear-gradient(180deg, #009ee2, #009ee2);
-  -webkit-transition: opacity 200ms ease;
-  transition: opacity 200ms ease;
+  -webkit-transition: opacity 1000ms ease;
+  transition: opacity 1000ms ease;
 }
 
 .pros_app {
@@ -2227,8 +2232,8 @@ textarea.w-select {
   height: 24px;
   margin-right: 30px;
   padding: 0px;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
+  -webkit-transition: all 1500ms ease;
+  transition: all 1500ms ease;
   cursor: pointer;
 }
 
@@ -2243,8 +2248,8 @@ textarea.w-select {
   height: 22px;
   margin-right: 30px;
   font-size: 26px;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
+  -webkit-transition: all 1500ms ease;
+  transition: all 1500ms ease;
   color: gray;
 }
 
@@ -2267,8 +2272,8 @@ textarea.w-select {
   background-size: 26px;
   background-repeat: no-repeat;
   opacity: 0.5;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
+  -webkit-transition: all 1500ms ease;
+  transition: all 1500ms ease;
 }
 
 .twitter_button:hover {
@@ -2288,8 +2293,8 @@ textarea.w-select {
   background-size: 24px;
   background-repeat: no-repeat;
   opacity: 0.5;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
+  -webkit-transition: all 1500ms ease;
+  transition: all 1500ms ease;
 }
 
 .instagram_button:hover {
@@ -2308,8 +2313,8 @@ textarea.w-select {
   background-size: 24px;
   background-repeat: no-repeat;
   opacity: 1;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
+  -webkit-transition: all 1500ms ease;
+  transition: all 1500ms ease;
 }
 
 .medium_button:hover {
@@ -2323,8 +2328,8 @@ textarea.w-select {
   padding: 0px;
   float: right;
   background-color: transparent;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
+  -webkit-transition: all 1500ms ease;
+  transition: all 1500ms ease;
   font-weight: bold;
 }
 
@@ -2352,8 +2357,8 @@ textarea.w-select {
 }
 
 .item-list {
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
+  -webkit-transition: all 1500ms ease;
+  transition: all 1500ms ease;
   font-family: "Museosans 300", sans-serif;
   color: #3b80fe;
   font-size: 18px;
