@@ -2360,7 +2360,7 @@ textarea.w-select {
   -webkit-transition: all 1500ms ease;
   transition: all 1500ms ease;
   font-family: "Museosans 300", sans-serif;
-  color: #3b80fe;
+  color: #007A7C;
   font-size: 18px;
   line-height: 18px;
   text-decoration: none;
@@ -2480,7 +2480,7 @@ textarea.w-select {
 .contact_btn {
   padding: 15px 65px;
   border-radius: 100px;
-  background-color: #3b80fe;
+  background-color: #007A7C;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   font-family: "Museosans 100", sans-serif;
